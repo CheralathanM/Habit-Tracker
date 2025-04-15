@@ -1,0 +1,98 @@
+.container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(130, 176, 15);
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .input input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 320px;
+    margin: 10px;
+  }
+  
+  .input a {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+  
+  .home {
+    background: rgb(117, 18, 18);
+    border: 2px solid black;
+    margin: auto;
+    padding: 8px 45px;
+    cursor: pointer;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: rgb(17, 17, 16);
+  }
+  
+  .buttons button {
+    width: 320px;
+    margin-left: 8px;
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 35px;
+  }
+  
+  .buttons button:active {
+    background-color: red;
+  }
+  
+  .button1 button {
+    width: 150px;
+    margin-left: 8px;
+    margin-top: 10px;
+    height: 35px;
+  }
+  
+  .paragraph span {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  #but1 {
+    background-color: blue;
+  }
+  
+  #but2 {
+    background-color: green;
+  }
+  
+  .container .paragraph1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
