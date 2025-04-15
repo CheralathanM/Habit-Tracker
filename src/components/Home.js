@@ -32,7 +32,7 @@ function Home() {
         <div className="container">
           <h2>Welcome to Habit Tracker!</h2>
           <p>Track and improve your habits every day. Stay consistent and achieve your goals!</p>
-          <Link to="/task" className="track">Start Tracking</Link>
+          <Link to="/HabitTracker" className="track">Start Tracking</Link>
         </div>
       </section>
 
