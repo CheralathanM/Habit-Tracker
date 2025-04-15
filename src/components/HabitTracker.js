@@ -13,9 +13,9 @@ function HabitTracker() {
 
   const [notes, setNotes] = useState([
     { id: '1', text: 'Call the dentist on Monday to reschedule appointment' },
-    { id: '2', text: 'Buy groceries for weekend dinner party' },
-    { id: '3', text: 'Submit quarterly tax documents by Friday' },
-    { id: '4', text: 'Reserve tickets for concert next month' },
+    { id: '2', text: 'Buy some snacks' },
+    { id: '3', text: 'Submit assignments' },
+    { id: '4', text: 'Book tickets' },
     { id: '5', text: 'Schedule car maintenance before road trip' },
     { id: '6', text: 'Follow up on email' },
   ]);
